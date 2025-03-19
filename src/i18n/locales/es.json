@@ -1,0 +1,80 @@
+{
+  "app": {
+    "title": "Burna",
+    "subtitle": "Chats anónimos, encriptados y que desaparecen. Sin rastros, sin cuentas, privacidad pura."
+  },
+  "home": {
+    "createChat": "Crear Chat Privado",
+    "noAccount": "No se necesita cuenta",
+    "messagesDisappear": "Los mensajes desaparecen",
+    "shareViaLink": "Compartir solo por enlace",
+    "features": {
+      "encrypted": {
+        "title": "Cifrado de Extremo a Extremo",
+        "description": "Sus mensajes están protegidos con cifrado de grado militar"
+      },
+      "selfDestructing": {
+        "title": "Auto-destructivo",
+        "description": "Los mensajes se eliminan automáticamente después del tiempo elegido"
+      },
+      "anonymous": {
+        "title": "100% Anónimo",
+        "description": "Sin registros, sin nombres de usuario, sin huella digital"
+      }
+    }
+  },
+  "chat": {
+    "creation": {
+      "title": "Crear Chat Privado",
+      "maxUsers": "Usuarios Máximos",
+      "messageLifespan": "Duración del Mensaje",
+      "users": {
+        "2": "2 usuarios (1-a-1)",
+        "3": "3 usuarios",
+        "5": "5 usuarios",
+        "10": "10 usuarios"
+      },
+      "lifespan": {
+        "30": "30 segundos",
+        "60": "1 minuto",
+        "300": "5 minutos",
+        "600": "10 minutos",
+        "1800": "30 minutos"
+      },
+      "privacyFeatures": "Características de Privacidad:",
+      "features": [
+        "Cifrado de extremo a extremo",
+        "Sin registro de usuario",
+        "Los mensajes se auto-eliminan",
+        "El chat termina completamente"
+      ],
+      "generateLink": "Generar Enlace de Chat",
+      "chatCreated": "¡Chat Creado!",
+      "chatLink": "Tu enlace de chat privado:",
+      "chatSettings": "Configuraciones del Chat:",
+      "maxUsersLabel": "Usuarios máx:",
+      "messagesDeleteAfter": "Los mensajes se eliminan después de:",
+      "seconds": "segundos",
+      "encrypted": "Cifrado de extremo a extremo",
+      "createAnother": "Crear Otro",
+      "joinChat": "Unirse al Chat"
+    },
+    "room": {
+      "title": "Chat Burna",
+      "usersConnected": "usuarios conectados",
+      "terminateChat": "Terminar Chat",
+      "chatTerminated": "Chat Terminado",
+      "allMessagesDeleted": "Todos los mensajes han sido eliminados permanentemente.",
+      "typePlaceholder": "Escribe un mensaje...",
+      "terminating": "Terminando chat...",
+      "allDeleted": "Todos los mensajes serán eliminados permanentemente."
+    }
+  },
+  "common": {
+    "copy": "Copiar",
+    "copied": "¡Enlace copiado!",
+    "copyFailed": "Error al copiar",
+    "shareLink": "Comparte este enlace con otros para unirse al chat.",
+    "copyManually": "Por favor copia el enlace manualmente."
+  }
+}

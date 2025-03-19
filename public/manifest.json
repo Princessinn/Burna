@@ -1,0 +1,27 @@
+{
+  "name": "Burna - Private Chat",
+  "short_name": "Burna",
+  "description": "Anonymous, encrypted, disappearing chats. No traces, no accounts, pure privacy.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#25D366",
+  "theme_color": "#25D366",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["communication", "social"],
+  "lang": "en-US",
+  "dir": "ltr"
+}
