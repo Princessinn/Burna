@@ -1,0 +1,80 @@
+{
+  "app": {
+    "title": "Burna",
+    "subtitle": "Chats anonymes, chiffrés et éphémères. Aucune trace, aucun compte, confidentialité pure."
+  },
+  "home": {
+    "createChat": "Créer un Chat Privé",
+    "noAccount": "Aucun compte nécessaire",
+    "messagesDisappear": "Les messages disparaissent",
+    "shareViaLink": "Partager par lien uniquement",
+    "features": {
+      "encrypted": {
+        "title": "Chiffrement de Bout en Bout",
+        "description": "Vos messages sont protégés par un chiffrement de qualité militaire"
+      },
+      "selfDestructing": {
+        "title": "Auto-destructeur",
+        "description": "Les messages se suppriment automatiquement après la durée choisie"
+      },
+      "anonymous": {
+        "title": "100% Anonyme",
+        "description": "Pas d'inscription, pas de nom d'utilisateur, aucune empreinte numérique"
+      }
+    }
+  },
+  "chat": {
+    "creation": {
+      "title": "Créer un Chat Privé",
+      "maxUsers": "Utilisateurs Maximum",
+      "messageLifespan": "Durée de Vie du Message",
+      "users": {
+        "2": "2 utilisateurs (1-à-1)",
+        "3": "3 utilisateurs",
+        "5": "5 utilisateurs",
+        "10": "10 utilisateurs"
+      },
+      "lifespan": {
+        "30": "30 secondes",
+        "60": "1 minute",
+        "300": "5 minutes",
+        "600": "10 minutes",
+        "1800": "30 minutes"
+      },
+      "privacyFeatures": "Fonctionnalités de Confidentialité:",
+      "features": [
+        "Chiffrement de bout en bout",
+        "Pas d'enregistrement d'utilisateur",
+        "Messages auto-supprimés",
+        "Chat terminé complètement"
+      ],
+      "generateLink": "Générer le Lien de Chat",
+      "chatCreated": "Chat Créé!",
+      "chatLink": "Votre lien de chat privé:",
+      "chatSettings": "Paramètres du Chat:",
+      "maxUsersLabel": "Utilisateurs max:",
+      "messagesDeleteAfter": "Les messages se suppriment après:",
+      "seconds": "secondes",
+      "encrypted": "Chiffrement de bout en bout",
+      "createAnother": "Créer un Autre",
+      "joinChat": "Rejoindre le Chat"
+    },
+    "room": {
+      "title": "Chat Burna",
+      "usersConnected": "utilisateurs connectés",
+      "terminateChat": "Terminer le Chat",
+      "chatTerminated": "Chat Terminé",
+      "allMessagesDeleted": "Tous les messages ont été définitivement supprimés.",
+      "typePlaceholder": "Tapez un message...",
+      "terminating": "Terminaison du chat...",
+      "allDeleted": "Tous les messages seront supprimés définitivement."
+    }
+  },
+  "common": {
+    "copy": "Copier",
+    "copied": "Lien copié!",
+    "copyFailed": "Échec de la copie",
+    "shareLink": "Partagez ce lien avec d'autres pour rejoindre le chat.",
+    "copyManually": "Veuillez copier le lien manuellement."
+  }
+}

@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    /* Burna WhatsApp-inspired theme */
+    --primary: 142 69% 58%; /* WhatsApp green #25D366 */
+    --primary-foreground: 0 0% 100%;
+    --primary-dark: 174 46% 34%; /* Darker green #128C7E */
+    --primary-light: 122 39% 49%; /* Medium green #075E54 */
+
+    --secondary: 142 17% 93%; /* Light green background */
+    --secondary-foreground: 142 69% 25%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 142 25% 88%; /* Subtle green accent */
+    --accent-foreground: 142 69% 25%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 142 69% 58%;
+
+    /* Chat specific colors */
+    --chat-bg: 0 0% 97%; /* Chat background */
+    --message-sent: 142 69% 58%; /* Sent message bubble */
+    --message-received: 0 0% 100%; /* Received message bubble */
+    --message-text-sent: 0 0% 100%;
+    --message-text-received: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 8 8% 8%; /* Dark background */
+    --foreground: 210 40% 98%;
+
+    --card: 15 15% 12%; /* Dark card */
+    --card-foreground: 210 40% 98%;
+
+    --popover: 15 15% 12%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 142 69% 58%; /* Same green in dark mode */
+    --primary-foreground: 0 0% 100%;
+    --primary-dark: 174 46% 34%;
+    --primary-light: 122 39% 49%;
+
+    --secondary: 142 20% 15%; /* Dark green secondary */
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 15 15% 15%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 142 25% 20%; /* Dark green accent */
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 15 15% 20%;
+    --input: 15 15% 20%;
+    --ring: 142 69% 58%;
+
+    /* Dark mode chat colors */
+    --chat-bg: 8 8% 8%; /* Dark chat background */
+    --message-sent: 142 69% 58%; /* Keep green for sent messages */
+    --message-received: 15 15% 15%; /* Dark bubble for received */
+    --message-text-sent: 0 0% 100%;
+    --message-text-received: 210 40% 98%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
